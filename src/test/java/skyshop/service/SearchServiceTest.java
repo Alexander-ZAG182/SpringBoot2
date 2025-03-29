@@ -47,7 +47,6 @@ class SearchServiceTest {
         assertTrue(results.isEmpty());
     }
 
-
     @Test
     void search_WhenMatchingObjectExists_ReturnsResult() {
         Searchable mockSearchable = mock(Searchable.class);

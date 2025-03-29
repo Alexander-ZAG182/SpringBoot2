@@ -83,8 +83,6 @@ class BasketServiceTest {
         UUID product1 = UUID.randomUUID();
         UUID product2 = UUID.randomUUID();
 
-
-
         Product mockProduct1 = mock(Product.class);
         when(mockProduct1.getCostProduct()).thenReturn(100);
 
